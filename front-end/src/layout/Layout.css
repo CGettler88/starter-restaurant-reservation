@@ -1,4 +1,57 @@
+/* General layout */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #090909;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+/* Navigation */
+
+.sidebar-brand-text {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: rgb(252, 249, 249);
+}
+
 .side-bar {
-  background-color: #393a44;
+  background-color: #003049;
   min-width: 200px;
+  border-style: solid;
+}
+
+/* Headings */
+
+h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.headingBar {
+  background-color: #003049;
+  border-style: solid;
+}
+
+/* Cards */
+
+.card {
+  background-color: #c6c5ce;
+  border-style: solid;
+}
+
+.card-header {
+  background-color: #003049;
+  color: hwb(0 100% 0%);
+}
+
+/* Buttons */
+
+.btn-dark {
+  background-color: #003049;
+  color: #ffffff;
 }

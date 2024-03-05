@@ -16,7 +16,7 @@ function Menu() {
           className="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0"
           to="/"
         >
-          <div className="sidebar-brand-text mx-3">
+          <div className="sidebar-brand-text mx-3 mt-3">
             <span>Periodic Tables</span>
           </div>
         </Link>
@@ -24,7 +24,7 @@ function Menu() {
         <ul className="nav navbar-nav text-light" id="accordionSidebar">
           <li className="nav-item">
             <Link className="nav-link" to="/dashboard">
-              <span className="oi oi-dashboard" />
+              <span className="oi oi-home" />
               &nbsp;Dashboard
             </Link>
           </li>
